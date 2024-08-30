@@ -38,7 +38,6 @@ val lightBlue = Color(173, 216, 230)
 
 @Composable
 fun RecordingButton(
-    modifier: Modifier = Modifier,
     size: Dp = 24.dp,
     frequency: Int = 4,
     onAction: () -> Unit,
